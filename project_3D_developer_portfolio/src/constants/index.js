@@ -23,6 +23,22 @@ import {
   jobit,
   tripguide,
   threejs,
+  ghrcelogo,
+  robo,
+  dplogo,
+  SparksLogo,
+  mylogo,
+
+  android,
+  java,
+  cpp,
+  python,
+  hydro,
+  store,
+  noteapp,
+  shorturl,
+
+
 } from "../assets";
 
 export const navLinks = [
@@ -60,14 +76,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -109,14 +125,32 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+
+  {
+    name: "android",
+    icon: android,
+  },
+
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
+  },
 ];
 
 const experiences = [
   {
     title: "Software Developer",
     company_name: "Mobicore Infotech Pvt. Ltd.",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: robo,
+    iconBg: "white",
     date: "December 2023 - May 2024*",
     points: [
       "Developing cutting-edge features and functionalities, resulting in a remarkable 70% boost in system performance by minimising inter-system delays.",
@@ -127,8 +161,8 @@ const experiences = [
   {
     title: "Android Developer",
     company_name: "Sparks Foundation",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: SparksLogo,
+    iconBg: "white",
     date: "December 2022 - January 2023",
     points: [
       "Developed an Android Application for this internship for banking.",
@@ -140,8 +174,8 @@ const experiences = [
     title: "Bachelor of Technology - Computer Science and Engineering",
     company_name: "G.H. Raisoni College of Engineering, Nagpur",
 
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: ghrcelogo,
+    iconBg: "white",
     date: "December 2021 - June 2024*",
     points: [
         "Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks, Database Management Systems, Software Engineering, Object-Oriented Programming, and Design Patterns.",
@@ -150,8 +184,8 @@ const experiences = [
   {
     title: "Diploma - Computer Technology",
     company_name: "Dharampeth Polytechnic, Nagpur",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: dplogo,
+    iconBg: "white",
     date: "August 2019 - June 2021",
     points: [
       "Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks, Database Management Systems, Software Engineering, Object-Oriented Programming.",  
@@ -190,7 +224,7 @@ const projects = [
   {
     name: "Smart Hydroponics System",
     description:
-      "A Hydroponics IoT System using ESP32 SOC, Relay Modules and Set of Different Sensors to create a System for control and Monitoring of Hydroponics System and seamlessly integrating mobile devices through an Android based client",
+      "A Hydroponics IoT System using ESP32 SOC, Relay Modules and Set of Different Sensors to create a System for control and Monitoring of Hydroponics System and seamlessly integrating mobile devices through an Android based client.",
     tags: [
       {
         name: "android",
@@ -209,8 +243,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hydro,
+    source_code_link: "https://github.com/Riya-t-21/Smart-Hydroponics-IoT-System",
   },
   {
     name: "Apparel Store with Dashboard and CMS",
@@ -235,13 +269,13 @@ const projects = [
       },
       
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: store,
+    source_code_link: "https://github.com/Riya-t-21/Ecommerce-Apparel-Store",
   },
   {
     name: "Link Shortener App",
     description:
-      "Developed an Android application as a dashboard and a client to show the Statistics is used to shorten the long URL and share it with others",
+      "Developed an Android application as a dashboard and a client to show the Statistics is used to shorten the long URL and share it with others. It also has a feature to track the statistics of the shortened URL.",
     tags: [
       {
         name: "android",
@@ -264,8 +298,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shorturl,
+    source_code_link: "https://github.com/Riya-t-21/OpenInApp-Project",
   },
   {
     name: "Note Taking App",
@@ -286,8 +320,8 @@ const projects = [
       },
       
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: noteapp,
+    source_code_link: "https://github.com/Riya-t-21/NoteApp1",
   },
 ];
 

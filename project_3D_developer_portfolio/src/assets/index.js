@@ -30,6 +30,22 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import ghrcelogo from "./company/ghrcelogo.png";
+import robo from "./company/robo.jpg";
+import dplogo from "./company/dplogo.png";
+import SparksLogo from "./company/SparksLogo.png";
+import mylogo from "./mylogo.svg";
+
+import android from "./company/android.jpg";
+import python from   "./company/python.jpg";
+import java from "./company/java.jpg";
+import cpp from "./company/cpp.jpg";
+
+import hydro from "./tech/hydro.jpg";
+import store from "./tech/store.jpg";
+import shorturl from "./tech/shorturl.jpg";
+import noteapp from "./tech/notetaking.jpg";
+
 export {
   logo,
   backend,
@@ -59,4 +75,19 @@ export {
   carrent,
   jobit,
   tripguide,
+  ghrcelogo,
+  robo,
+  dplogo,
+  SparksLogo,
+  mylogo,
+  android,
+  python,
+  java,
+  cpp,
+  hydro,
+  store,
+  shorturl,
+  noteapp,
+  
+
 };
