@@ -2,8 +2,11 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { github } from '../assets/github.png';
+import  Github  from '../assets/github.png';
+import Linkedin from '../assets/linkedin.png';
 import IconButton from '@mui/material/IconButton';
+import { Link } from 'react-router-dom';
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
@@ -29,15 +32,29 @@ const Hero = () => {
             
           </p>
           <div className="mt-8">              
-            <button className={`${styles.resumeButton} bg-yellow-500 p-4 rounded text-xl`} onClick={() => window.open('https://docs.google.com/document/d/1_AUwdEfAbwnOAOZ0PG9sIul4oyur7Z_SEcZXX9Nfu8E/edit?usp=sharing', '_blank')}>
+          <button
+              className={`${styles.resumeButton} bg-yellow-500 p-4 rounded text-xl hover:border-slate-400  ring-blue-500 `}
+              onClick={() => window.open('https://docs.google.com/document/d/1_AUwdEfAbwnOAOZ0PG9sIul4oyur7Z_SEcZXX9Nfu8E/edit?usp=sharing', '_blank')}
+              onMouseEnter={(e) => {
+                e.target.style.backgroundImage = 'linear-gradient(to right, #FF4162, #FF4B2B, #FF4162)';
+                e.target.style.backgroundSize = '200% auto';
+                e.target.style.animation = 'shine 2s linear infinite';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.backgroundImage = '';
+                e.target.style.backgroundSize = '';
+                e.target.style.animation = '';
+              }}
+            >
               Resume
-              </button>    
+            </button>   
+            
          
-              <IconButton  onClick={() => window.open('https://example.com')}>
-                <github></github>
+              <IconButton  onClick={() => window.open('https://github.com/Riya-t-21/')}>
+                <img src={Github} alt="Github" className="w-14 h-14 ml-5" />
             </IconButton>
-            <IconButton onClick={() => window.open('https://example.com')}>
-              
+            <IconButton onClick={() => window.open('https://www.linkedin.com/in/riya-tulswani-96507724a/')}>
+              <img src={Linkedin} alt="Linkedin" className="w-14 h-14 ml-5" />
             </IconButton>          
             
             </div>
